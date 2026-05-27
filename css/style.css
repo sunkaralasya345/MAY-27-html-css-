@@ -1,4 +1,7 @@
- 
+ *{
+    margin:10px;
+    background-color: azure;
+ }
     #img{
         display:block;
         text-align:center;
