@@ -1,0 +1,29 @@
+ 
+    #img{
+        display:block;
+        text-align:center;
+        margin:auto;
+    }
+    #navid{
+        border:2px dotted red;
+        text-align: center;
+        color:pink;
+        padding:16px;
+    }
+    #navid:hover{
+        background-color:seagreen;
+    }
+    a{
+        color:rgb(69, 13, 221);
+    }
+    .welcome{
+        color:saddlebrown;
+        width:100%;
+        text-align:center;
+        margin:auto;
+    }
+    .purpose
+    {
+        font-size:20px;
+    }
+     
