@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="./css/style.css"></link>
+</head>
+<body>
+    <h1 style="color:rgb(229, 13, 49); text-align:center"><i>Society Survey</i></h1>
+    <p class="welcome">Please share your feedback to help improve
+our community services.</p>
+<div class="flex-box">
+    <form><div> 
+        <b>Cleanliness Satisfaction</b></br>
+        
+        4<input type="radio" name="clean" id="e" value="4">
+        3<input type="radio" name="clean" id="vg" value="3">
+        2<input type="radio" name="clean" id="g" value="2">
+        1<input type="radio" name="clean" id="p" value="1"></br>
+        </div>
+        
+        <div>
+        <b>Service Feedback</b></br>
+        Security<input type="checkbox" name="clean1" id="s" value="4">
+        Availability<input type="checkbox" name="clean2" id="a" value="3">
+        Management<input type="checkbox" name="clean3" id="m" value="2"></br>
+        </div>
+
+        <div>
+        <b>Parking Isssues</b></br>
+        <select aria-label="Issue">
+
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="both">Both</option>
+        </select></br>
+        </div>
+
+        <div>
+        <b>Suggestions</b></br>
+        <textarea name="suggestions" rows="4" placeholder="Suggestions plz" aria-label="suggest"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
