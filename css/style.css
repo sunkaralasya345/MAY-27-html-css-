@@ -180,10 +180,4 @@
         border: 10px solid rgb(0, 68, 128);
         background-color: burlywood;
     }
-     
-    @media all (max-width=20px) {
-        body
-        {
-            background-color:black;
-        }
-    }
+  
