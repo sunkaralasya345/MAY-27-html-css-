@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+
+    <style>
+        .t1{
+            background-color:rgb(157, 0, 255);
+            height:75px;
+            width:30%;
+            transition: background-color 5s;
+            position:relative                                                  ;
+        }
+        .t1:hover{
+            background-color: pink;
+            right:30px;
+            left:50px;
+            top:40px;
+            bottom:50px;
+            transform:rotateX(90deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="t1"></div>
+</body>
+</html>
