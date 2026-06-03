@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poll Results</title>
+    <style>
+        body {
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .bar {
+            height: 10px;
+            background: lightgray;
+            width: 100%;
+        }
+
+        .fill {
+            height: 10px;
+            background: green;
+        }
+
+        .winner {
+            background: #d4edda;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Poll Name: Society Leader Election</h2>
+
+<table>
+    <tr>
+        <th>Candidate</th>
+        <th>Votes</th>
+        <th>Percentage</th>
+        <th>Progress</th>
+    </tr>
+
+    <tr class="winner">
+        <td>Rahul</td>
+        <td>120</td>
+        <td>60%</td>
+        <td>
+            <div class="bar">
+                <div class="fill" style="width:60%"></div>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Ravi</td>
+        <td>80</td>
+        <td>40%</td>
+        <td>
+            <div class="bar">
+                <div class="fill" style="width:40%"></div>
+            </div>
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>

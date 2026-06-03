@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Candidate List</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+
+    transform: rotateY(0deg);
+    transition: transform 0.6s;
+}
+
+.card:hover {
+    transform: rotateY(15deg);
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background-color:rgb(128, 0, 100);
+}
+
+.info {
+    font-size: 14px;
+    margin: 5px 0;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Candidate List</h1>
+
+<div class="container">
+
+    <div class="card">
+        <div class="photo"></div>
+        <h3>Rahul</h3>
+        <div class="info">Position: President</div>
+        <div class="info">Experience: 5 Years</div>
+        <div class="info">Manifesto: Better community growth</div>
+        <div class="info">Society Contribution: High</div>
+        <div class="info">Contact: 9876543210</div>
+    </div>
+
+    <div class="card">
+        <div class="photo"></div>
+        <h3>Priya</h3>
+        <div class="info">Position: Secretary</div>
+        <div class="info">Experience: 3 Years</div>
+        <div class="info">Manifesto: Transparency & Development</div>
+        <div class="info">Society Contribution: Medium</div>
+        <div class="info">Contact: 9123456780</div>
+    </div>
+
+</div>
+
+</body>
+</html>
